@@ -1,0 +1,91 @@
+Learn Tanstack Start in 30 Minutes
+https://www.youtube.com/watch?v=jcBzuuZvLCE
+
+https://github.com/Annie-Huang/my-tanstack-app
+
+https://tanstack.com/cli/latest/docs/installation
+===========================================================================
+
+PS C:\react> npx @tanstack/cli create my-tanstack-app
+Need to install the following packages:
+@tanstack/cli@0.67.0
+Ok to proceed? (y) y
+
+TanStack CLI sends anonymous usage telemetry by default. It never sends project names, paths, raw search text, template URLs, add-on config values, or raw error messages. Disable it with `tanstack telemetry disable` or `TANSTACK_CLI_TELEMETRY_DISABLED=1`.
+┌  Let's configure your TanStack application
+│
+◇  Select framework:
+│  React
+│
+◇  Select toolchain
+│  None
+│
+◇  Select deployment adapter:
+│  Nitro (agnostic)
+│
+◇  Would you like to include demo/example pages?
+│  Yes
+│
+◇  Keyboard Shortcuts ────────────────────────────────────────────────╮
+│                                                                     │
+│  Use ↑/↓ to navigate • Space to select/deselect • Enter to confirm  │
+│                                                                     │
+├─────────────────────────────────────────────────────────────────────╯
+│
+◇  What add-ons would you like for your project? (Space to toggle, Enter to confirm)
+│  none
+│
+◇  Would you like an example?
+│  None
+│
+◇  Would you like to initialize a new git repository?
+│  Yes
+│
+●  About to create:
+│
+│    Project:         my-tanstack-app
+│    Location:        C:\react\my-tanstack-app
+│    Framework:       React
+│    Mode:            file-router
+│    Package manager: npm
+│
+│    Deploy:          Nitro (agnostic)
+│
+│    Initialize git:  yes
+│    Install deps:    yes
+│    Agent skills:    no
+│
+◇  Continue with these settings?
+│  Yes
+│
+◇  Initialized git repository
+│
+◇  Installed dependencies
+│
+└  Your TanStack app is ready in 'my-tanstack-app'.
+
+Use the following commands to start your app:
+% cd my-tanstack-app
+% npm run dev
+
+Next steps:
+
+Docs for the integrations you picked:
+  • Nitro (agnostic) (deploy) — https://v3.nitro.build/
+
+Please read the README.md file for information on testing, styling, adding routes, etc.
+
+PS C:\react>
+
+
+==================================================================================================
+
+
+
+
+
+
+
+
+
+
