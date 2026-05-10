@@ -82,7 +82,7 @@ PS C:\react>
 
 PS C:\react\my-tanstack-app> npx prettier --write .
 
-
+http://localhost:3000/products
 
 
 
