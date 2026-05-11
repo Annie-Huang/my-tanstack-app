@@ -1,6 +1,5 @@
 import { createFileRoute, Link } from '@tanstack/react-router';
-
-const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
+import { sleep } from '#/route.utils.ts';
 
 const products = [
   { id: '1', name: 'Football' },
