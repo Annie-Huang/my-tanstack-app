@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from '@tanstack/react-router';
-import { sleep } from '#/route.utils.ts';
+import { sleep } from '#/routes.utils.ts';
 
 const products = [
   { id: '1', name: 'Football' },
