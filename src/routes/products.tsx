@@ -1,11 +1,5 @@
 import { createFileRoute, Link } from '@tanstack/react-router';
-import { sleep } from '#/routes.utils.ts';
-
-const products = [
-  { id: '1', name: 'Football' },
-  { id: '2', name: 'Hat' },
-  { id: '3', name: 'Cool Shoes' },
-];
+import { products, sleep } from '#/routes.utils.ts';
 
 // This file got automatically generated if you create a new file under routes and the server is running
 export const Route = createFileRoute('/products')({
