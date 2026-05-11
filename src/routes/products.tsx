@@ -1,23 +1,33 @@
 import { createFileRoute, Link } from '@tanstack/react-router';
 
-// This file got automatically generated if you create a new file under routes and the server is running
-export const Route = createFileRoute('/products')({
-  component: RouteComponent,
-});
+const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
-const productList = [
+const products = [
   { id: '1', name: 'Football' },
   { id: '2', name: 'Hat' },
   { id: '3', name: 'Cool Shoes' },
 ];
 
+// This file got automatically generated if you create a new file under routes and the server is running
+export const Route = createFileRoute('/products')({
+  component: RouteComponent,
+  loader: async () => {
+    // Wait for 1 second (500 milliseconds)
+    await sleep(500);
+
+    return { products };
+  },
+});
+
 function RouteComponent() {
+  const { products } = Route.useLoaderData();
+
   return (
     <div>
       <h1>Products:</h1>
 
       <ul>
-        {productList.map((product) => (
+        {products.map((product) => (
           <li key={product.id}>
             {/*<Link to={`/product/${product.id}`}>{product.name}</Link>*/}
 
