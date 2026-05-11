@@ -7,6 +7,7 @@ export const Route = createFileRoute('/products')({
   loader: async () => {
     // Wait for 1 second (500 milliseconds)
     await sleep(500);
+    // const products = await getProducts();
 
     return { products };
   },
