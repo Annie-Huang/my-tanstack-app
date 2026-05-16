@@ -85,7 +85,8 @@ PS C:\react\my-tanstack-app> npx prettier --write .
 http://localhost:3000/products
 http://localhost:3000/product/123
 
-
+api route:
+http://localhost:3000/api/products
 
 
 

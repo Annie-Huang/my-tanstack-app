@@ -1,5 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router';
 
+// Access it through http://localhost:3000/api/products
 export const Route = createFileRoute('/api/products')({
   server: {
     handlers: {
