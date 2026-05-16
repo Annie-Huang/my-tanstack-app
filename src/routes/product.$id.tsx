@@ -8,7 +8,10 @@ export const Route = createFileRoute('/product/$id')({
 
     // Wait for 1 second (500 milliseconds)
     await sleep(500);
+
     // const product = await getProductById(id)
+    // If you call the one that is wrapped within the createServerFn
+    // const product = await getProductById({data:{id}})
 
     return { product: products.filter((product) => product.id === id)[0] };
   },
