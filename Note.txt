@@ -88,5 +88,15 @@ http://localhost:3000/product/123
 api route:
 http://localhost:3000/api/products
 
+TanStack Start is isomorphic by default. This means our code runs on both the server and the client.
+We have server functions that allow us to isolate our code to be run only the server (createServerFn)
+There are other methods as well:
+import {
+  createServerFn
+  createServerOnlyFn
+  createClientOnlyFn
+  createIsomorphicFn
+} from '@tanstack/react-start'
+
 
 
